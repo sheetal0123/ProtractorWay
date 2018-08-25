@@ -19,6 +19,10 @@ webdriver-manager update --ignore_ssl   | if error comes in above stmt
 Note: Imp: Restart system if above setup does not work
 Webdriver Manager listen to any tests which run via protractor.
 
+5. Jasmin Runner | Download jasmine standalone zip file 
+https://github.com/jasmine/jasmine/releases
+
+****************************************************************************************************
 
 #How to Run:
 1. webdriver-manager start										| standard way
@@ -32,7 +36,7 @@ Webdriver Manager listen to any tests which run via protractor.
 ChromeDriver 2.41   Supports Chrome v67-69
 ChromeDriver 2.38   Supports Chrome v65-67  
 
-
+****************************************************************************************************
 #Few imp commands
 webdriver-manager version
 webdriver-manager shutdown
@@ -41,6 +45,8 @@ webdriver-manager update --ignore_ssl # bypass network proxy
 webdriver-manager start 
 node webdriver-manager status
 
+
+****************************************************************************************************
 #Some Imp Paths:
 C:\Users\exxxxxx\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\chromedriver_2.41.zip
 C:\Users\exxxxxx\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium\chromedriver_2.38.zip
@@ -53,7 +59,7 @@ whttps://stackoverflow.com/questions/9626990/receiving-error-error-ssl-error-sel
 https://github.com/angular/webdriver-manager/issues/239
 
 
-
+****************************************************************************************************
 #Index
 AngularJS : Original Angular language, also called Angular1 - Obsolete
 Angular2  : Also called Angular. Currently most popupar. Made in Typescript.
@@ -77,7 +83,7 @@ Angular application = Made of Components
 Components : HTML + CSS + Component Class
 Component Class: Control a portion of screen
 
-
+****************************************************************************************************
 #Jasmine
 -Protractor using Jasmine for its testing interface hence Jasmine is imp for Protractor learning
 -Jasmine is a kind of BDD where we describe behaviour in step file directly i.e no story file
@@ -86,7 +92,7 @@ npm install -g jasmine
 -'describe' can contains multiple 'it' func, further 'it' can contains 'describe'
 
 
-
+****************************************************************************************************
 1. Config and Spec file
 Configuration file: This file constains info related to test case files i.e. specs.js and to talk with Selenium server (Selenium Address). 
 Chrome is the default browser for Protractor.
@@ -105,14 +111,4 @@ https://www.guru99.com/protractor-testing.html
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+****************************************************************************************************
